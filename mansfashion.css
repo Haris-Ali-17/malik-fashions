@@ -1,0 +1,171 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+
+
+.header{
+    height: 700px;
+    width: auto;
+    background: url(images/wall2.jpg);
+    background-size: cover;
+  
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(43, 42, 41,0.6);
+    position: fixed;
+    
+}
+
+
+.logo{
+    width: 20%;
+    height: 120px;
+    
+}
+
+.logo img{
+   margin-top: -70px;
+   width: 300px;
+   height: 250px;
+}
+
+
+.navbar{
+    height: 120px;
+    width: 80%;
+    float: right;
+    margin-top: -120px;
+    
+}
+.navbar ul{
+   
+   width: 70%;
+   height: 80px;
+   margin-left:20px ;
+   list-style: none;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.navbar ul li{
+    
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -10px;
+ } 
+
+ .navbar ul li:hover{
+    color: hsl(213, 5%, 65%);
+ }
+
+ input{
+   margin-top: 350px;
+   margin-left: 300px;
+   width: 650px;
+   height: 50px;
+   border-radius: 40px;
+   font-size:large;
+   padding-left: 30px;
+   border: solid #9c9aa67b;
+   outline: none;
+   
+ }
+ span{
+   margin-left: -50px;
+ }
+span img{
+   height: 20px;
+}
+ 
+                            /* header end */
+
+                             /* body start */
+
+ #cards{
+    border: 1px solid black;
+    height:1000px;
+    width: 90%;
+    margin: 5px auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }            
+ 
+#cards p{
+    border: 3px solid black;
+    border-radius: 10px;
+    width:150px ;
+    height:70px;
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+ 
+ #cards li{
+    border: 2px solid rgb(0, 0, 0);
+    height: 460px;
+    width: 350px;
+    margin-top: -200px;
+    margin-right: 750px;
+    border-radius: 10px;
+ }
+
+ .image img{
+    
+    height: 450px;
+    width: 320px;
+    margin-top: 4px;
+    margin-left: 13px ;
+ }
+
+ 
+
+ .details{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:350px ;
+    height: 100px;
+    margin-top: 10px;
+ }
+ 
+ .details h4{
+    margin-top: -1px;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+ }
+
+ .details h3{
+    font-size: 15px;
+    margin-left: 120px;
+    margin-top: -20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    
+ }
+
+ .details h5{
+    margin-left: 70px;
+    font-size: 18px;
+    margin-top: -10px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+
+ }
